@@ -9,15 +9,55 @@
     <h1>Registration Form</h1>
     <form>
         <lable for="firstname">Firstname:</lable>
-            <input type="firstname" id="firstname" name="firstname rewuired">
+            <input type="firstname" id="firstname" name="firstname required">
+        <br>
         <br>
         <lable for="lastname">Lastname:</lable>
             <input type="lastname" name="lastname" id="">
         <br>
-        <lable for="html">Course:</lable>
-            <input type="hmtl" step="html">
         <br>
-       
-
+        <lable for="html">Course:</lable>
+            <select name="HTML" id="drop">
+                <option value="HTML">HTML</option>
+            </select>
+        <br>
+        <br>
+        <label> Gender: </label>
+        <br>
+            <input checked type="radio" name="radio">
+            Male
+        <br>
+             <input checked type="radio" name="radio">
+             Female
+       <br>
+       <br>
+       <label> Hobbies: </label>
+       <br>
+       <input type="checkbox" value="Programming" name=""checkbox1>Programming
+       <br>
+       <input type="checkbox" value="Basketball" name=""checkbox2>Basketball
+       <br>
+       <input type="checkbox" value="Football" name=""checkbox3>Football
+       <br>
+       <input type="checkbox" value="Reading Novel" name=""checkbox4>Reading Novel
+       <br>
+       <br>
+    <lable for="Phone"> Phone: </lable>
+       <input type="phone" id="phone" name="phone required">
+       <br>
+    <p> Address: </p>
+    <textarea name="" id="" cols="40" rows="5"></textarea>
+    <br>
+    <br>
+    <lable for="email"> Email: </lable>
+    <input type="email" id="email" name="email required">
+    <br>
+    <br>
+    <lable for="password"> Password: </lable>
+    <input type="password" id="password" name="password required">
+    <br>
+    <br>
+    <input type="Submit" value="Submit">
+    <input type="Reset" value="Reset">
 </body>
 </html>
